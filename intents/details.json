@@ -1,0 +1,50 @@
+{
+  "name": "details",
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "details",
+      "enter your [name](name)",
+      "please type your [name](name)",
+      "enter your [email](email) address",
+      "please enter your [age](age)",
+      "please enter traveling [date](date)"
+    ]
+  },
+  "slots": [
+    {
+      "id": "uj-8NpVt8ZRzK7Qxih6pO",
+      "name": "name",
+      "entities": [
+        "name"
+      ],
+      "color": 1
+    },
+    {
+      "id": "NN3exM_MO2Ya-wfU01p-O",
+      "name": "email",
+      "entities": [
+        "email"
+      ],
+      "color": 2
+    },
+    {
+      "id": "aLuTZsUR7LUK4fzyT_CJ6",
+      "name": "age",
+      "entities": [
+        "name"
+      ],
+      "color": 3
+    },
+    {
+      "id": "Bs4UkIS9Qn4xyUSiVkdqP",
+      "name": "date",
+      "entities": [
+        "date"
+      ],
+      "color": 4
+    }
+  ]
+}

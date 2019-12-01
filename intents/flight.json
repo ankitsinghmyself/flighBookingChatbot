@@ -1,0 +1,34 @@
+{
+  "name": "flight",
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "train",
+      "i wan to fly [Lucknow](toCity)",
+      "i want to book flight",
+      "i wan to fly from [Bangalore](fromCity) to [Lucknow](toCity)",
+      "book a flight",
+      "i want to go a nice place"
+    ]
+  },
+  "slots": [
+    {
+      "id": "ILGqx6kGn5LWJhfi6eMbp",
+      "name": "fromCity",
+      "entities": [
+        "city"
+      ],
+      "color": 1
+    },
+    {
+      "id": "QriYeD5y48i_fZHZ6v_eI",
+      "name": "toCity",
+      "entities": [
+        "city"
+      ],
+      "color": 2
+    }
+  ]
+}

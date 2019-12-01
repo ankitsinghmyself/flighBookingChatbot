@@ -1,0 +1,17 @@
+{
+  "name": "name",
+  "type": "list",
+  "occurences": [
+    {
+      "name": "ankit",
+      "synonyms": []
+    },
+    {
+      "name": "anu",
+      "synonyms": []
+    }
+  ],
+  "fuzzy": 0.65,
+  "examples": [],
+  "pattern": ""
+}

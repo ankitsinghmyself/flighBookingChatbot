@@ -1,0 +1,17 @@
+{
+  "name": "airline",
+  "type": "list",
+  "occurences": [
+    {
+      "name": "JetAirLine",
+      "synonyms": []
+    },
+    {
+      "name": "IndiGo",
+      "synonyms": []
+    }
+  ],
+  "fuzzy": 0.65,
+  "examples": [],
+  "pattern": ""
+}

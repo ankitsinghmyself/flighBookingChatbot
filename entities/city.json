@@ -1,0 +1,17 @@
+{
+  "name": "city",
+  "type": "list",
+  "occurences": [
+    {
+      "name": "lucknow",
+      "synonyms": []
+    },
+    {
+      "name": "Bangalore",
+      "synonyms": []
+    }
+  ],
+  "fuzzy": 0.65,
+  "examples": [],
+  "pattern": ""
+}

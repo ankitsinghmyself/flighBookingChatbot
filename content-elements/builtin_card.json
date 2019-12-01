@@ -1,0 +1,26 @@
+[
+  {
+    "id": "builtin_card-Mze9Z5",
+    "formData": {
+      "title$en": "Ticket Details",
+      "actions$en": [
+        {
+          "title": "Confirm",
+          "action": "Open URL",
+          "url": "https://www.google.com/flights?safe=active&lite=0#flt=BLR..2019-12-17*.BLR.2019-12-21;c:INR;e:1;sd:1;t:h"
+        },
+        {
+          "title": "Cancel",
+          "action": "Say something",
+          "payload": "{{event.nlu.intent.flight}}",
+          "text": "Ok ! Ticket successfully Cancel"
+        }
+      ],
+      "image$en": "/api/v1/bots/BOT_ID_PLACEHOLDER/media/hfxhl63onuy5ql6o7saz-apps.60666.14529079780920944.2497ed09-4c69-4322-b91f-d7a340c83816.jpg",
+      "subtitle$en": "Name:{{temp.name}}\nAge:{{temp.name}}\nFrom:{{temp.fromCity}}\nTo:{{temp.toCity}}"
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-12-01T15:14:58.507Z",
+    "modifiedOn": "2019-12-01T15:24:40.313Z"
+  }
+]

@@ -1,0 +1,116 @@
+[
+  {
+    "id": "builtin_text-eMvq_S",
+    "formData": {
+      "text$en": "hi! I am only supporting  booking flight for now, sorry!",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-12-01T09:34:45.313Z",
+    "modifiedOn": "2019-12-01T09:34:45.313Z"
+  },
+  {
+    "id": "builtin_text-fwqm5R",
+    "formData": {
+      "text$en": "Which city are you departing from?Please type it's name.",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-12-01T09:51:24.033Z",
+    "modifiedOn": "2019-12-01T09:51:24.033Z"
+  },
+  {
+    "id": "builtin_text-jFzYi_",
+    "formData": {
+      "text$en": "Please type name of destination city",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-12-01T09:57:04.943Z",
+    "modifiedOn": "2019-12-01T09:57:04.943Z"
+  },
+  {
+    "id": "builtin_text-FhLmRB",
+    "formData": {
+      "text$en": "ok i am booking flight from {{temp.fromCity}} to {{temp.toCity}}.",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-12-01T10:02:42.381Z",
+    "modifiedOn": "2019-12-01T10:02:42.381Z"
+  },
+  {
+    "id": "builtin_text-CAs9qH",
+    "formData": {
+      "text$en": "Hello, How I can help you?",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-12-01T10:14:44.298Z",
+    "modifiedOn": "2019-12-01T10:14:44.298Z"
+  },
+  {
+    "id": "builtin_text-hVhfs0",
+    "formData": {
+      "text$en": "Please type your traveler name",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-12-01T13:10:42.091Z",
+    "modifiedOn": "2019-12-01T13:12:07.069Z"
+  },
+  {
+    "id": "builtin_text-EyGsNX",
+    "formData": {
+      "text$en": "Please enter email address ",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-12-01T13:13:30.561Z",
+    "modifiedOn": "2019-12-01T13:13:30.561Z"
+  },
+  {
+    "id": "builtin_text-h87AOg",
+    "formData": {
+      "text$en": "Please enter your age",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-12-01T13:14:54.044Z",
+    "modifiedOn": "2019-12-01T13:14:54.044Z"
+  },
+  {
+    "id": "builtin_text-GGuGyb",
+    "formData": {
+      "text$en": "Airline:JetAirLine\nTraveler Name:{{temp.name}}\nAge:{{temp.age}}\nfrom:{{temp.fromCity}}\nto:{{temp.toCity}}",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Confirm ",
+        "Cancel "
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-12-01T13:19:26.747Z",
+    "modifiedOn": "2019-12-01T15:10:48.802Z"
+  },
+  {
+    "id": "builtin_text-gCGZGl",
+    "formData": {
+      "text$en": "Enter date of  traveling:",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-12-01T14:55:21.847Z",
+    "modifiedOn": "2019-12-01T14:55:21.847Z"
+  }
+]

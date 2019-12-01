@@ -1,0 +1,235 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "entry",
+      "name": "entry",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'flight'",
+          "node": "node-ac0a"
+        },
+        {
+          "condition": "true",
+          "node": "node-3d7e"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null
+    },
+    {
+      "id": "12aeef5de3",
+      "name": "node-3d7e",
+      "next": [],
+      "onEnter": [
+        "",
+        "say #!builtin_text-eMvq_S"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "161adb7fbf",
+      "name": "node-ac0a",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-06e0"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"temp\",\"name\":\"fromCity\",\"value\":\"{{event.nlu.slots.fromCity.value}}\"}",
+        "builtin/setVariable {\"type\":\"temp\",\"name\":\"toCity\",\"value\":\"{{event.nlu.slots.toCity.value}}\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "2a5b1e65db",
+      "name": "node-06e0",
+      "next": [
+        {
+          "condition": "temp.fromCity",
+          "node": "node-27e2"
+        },
+        {
+          "condition": "true",
+          "node": "node-6f23"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "5d44a334d2",
+      "name": "node-27e2",
+      "next": [
+        {
+          "condition": "temp.toCity",
+          "node": "node-a953"
+        },
+        {
+          "condition": "true",
+          "node": "node-5467"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "61e1fc071a",
+      "name": "node-6f23",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-27e2"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-fwqm5R"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"temp\",\"name\":\"fromCity\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "6bbb41dda3",
+      "name": "node-5467",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-a953"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-jFzYi_"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"temp\",\"name\":\"toCity\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "c180e10875",
+      "name": "node-a953",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-cc3b"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-FhLmRB"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "1e6f6bb2d2",
+      "name": "node-c319",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-CAs9qH"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "df373d6731",
+      "name": "node-5304",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'none'",
+          "node": "node-c319"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "9c657bd95a",
+      "name": "node-cc3b",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-f4ee"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-hVhfs0"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"temp\",\"name\":\"name\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "e43f990a65",
+      "name": "node-f4ee",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-154a"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-EyGsNX"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"temp\",\"name\":\"email\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "6fa55b99d3",
+      "name": "node-154a",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-12d1"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-h87AOg"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"temp\",\"name\":\"age\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "fbf501e1e6",
+      "name": "node-12d1",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-197b"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-GGuGyb"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "b3cccb8885",
+      "name": "node-197b",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_card-Mze9Z5"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}
